@@ -1,0 +1,50 @@
+
+container {
+    display: flex;
+    box-sizing: content-box;
+    height: 85%;
+}
+
+header{
+    display: flex;
+    flex: 1;
+    background-color: aqua;
+    height: 10%;
+}
+
+flexmid {
+    display: flex;
+    flex: 4;
+    background-color: antiquewhite;
+    height: 100%;
+
+}
+aside{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+flexleft{
+    display: flex;
+    flex: 1;
+    background-color: aliceblue;
+    height: 100%;
+}
+flexright{
+    display: flex;
+    flex: 2;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+@media (max-width: 500px){
+    .container{
+        flex-direction: column;
+    }
+}
+footer { 
+    display: flex;
+    flex: 1;
+    background-color: aqua;
+    height:5%;
+}
